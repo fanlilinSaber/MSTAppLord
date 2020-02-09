@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4885FCD223F040F300C95638 /* MSTAppLord.h in Headers */ = {isa = PBXBuildFile; fileRef = 4885FCD023F040F300C95638 /* MSTAppLord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4885FCDD23F0411800C95638 /* MSTContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 4885FCD823F0411800C95638 /* MSTContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4885FCDE23F0411800C95638 /* MSTPipe.h in Headers */ = {isa = PBXBuildFile; fileRef = 4885FCD923F0411800C95638 /* MSTPipe.h */; };
+		4885FCDF23F0411800C95638 /* MSTPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4885FCDA23F0411800C95638 /* MSTPipe.m */; };
+		4885FCE023F0411800C95638 /* MSTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4885FCDB23F0411800C95638 /* MSTContext.m */; };
+		4885FCE123F0411800C95638 /* MSTEmitterPlug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4885FCDC23F0411800C95638 /* MSTEmitterPlug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4885FCEA23F042C300C95638 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4885FCE923F042C300C95638 /* AppDelegate.m */; };
+		4885FCED23F042C300C95638 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4885FCEC23F042C300C95638 /* SceneDelegate.m */; };
+		4885FCF023F042C300C95638 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4885FCEF23F042C300C95638 /* ViewController.m */; };
+		4885FCF323F042C300C95638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4885FCF123F042C300C95638 /* Main.storyboard */; };
+		4885FCF523F042C500C95638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4885FCF423F042C500C95638 /* Assets.xcassets */; };
+		4885FCF823F042C500C95638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4885FCF623F042C500C95638 /* LaunchScreen.storyboard */; };
+		4885FCFB23F042C500C95638 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4885FCFA23F042C500C95638 /* main.m */; };
+		4885FD0A23F0464400C95638 /* MSTAppLord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4885FCCD23F040F300C95638 /* MSTAppLord.framework */; };
+		4885FD0B23F0464400C95638 /* MSTAppLord.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4885FCCD23F040F300C95638 /* MSTAppLord.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4885FD1C23F0471A00C95638 /* MSTLoggerEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4885FD1123F0471900C95638 /* MSTLoggerEmitter.m */; };
+		4885FD1D23F0471A00C95638 /* MSTRegistPlatformsEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4885FD1323F0471900C95638 /* MSTRegistPlatformsEmitter.m */; };
+		4885FD1E23F0471A00C95638 /* MSTAspectsEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4885FD1523F0471900C95638 /* MSTAspectsEmitter.m */; };
+		4885FD1F23F0471A00C95638 /* MSTNetworkEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4885FD1823F0471900C95638 /* MSTNetworkEmitter.m */; };
+		4885FD2023F0471A00C95638 /* MSTKeyboardEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4885FD1A23F0471900C95638 /* MSTKeyboardEmitter.m */; };
+		4885FD2123F0471A00C95638 /* MSTGlobalNotificationEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4885FD1B23F0471900C95638 /* MSTGlobalNotificationEmitter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4885FD0C23F0464400C95638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4885FCC423F040F300C95638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4885FCCC23F040F300C95638;
+			remoteInfo = MSTAppLord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4885FD0E23F0464500C95638 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4885FD0B23F0464400C95638 /* MSTAppLord.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4885FCCD23F040F300C95638 /* MSTAppLord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSTAppLord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4885FCD023F040F300C95638 /* MSTAppLord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTAppLord.h; sourceTree = "<group>"; };
+		4885FCD823F0411800C95638 /* MSTContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTContext.h; sourceTree = "<group>"; };
+		4885FCD923F0411800C95638 /* MSTPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTPipe.h; sourceTree = "<group>"; };
+		4885FCDA23F0411800C95638 /* MSTPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTPipe.m; sourceTree = "<group>"; };
+		4885FCDB23F0411800C95638 /* MSTContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTContext.m; sourceTree = "<group>"; };
+		4885FCDC23F0411800C95638 /* MSTEmitterPlug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTEmitterPlug.h; sourceTree = "<group>"; };
+		4885FCE623F042C300C95638 /* MSTAppLord IOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MSTAppLord IOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4885FCE823F042C300C95638 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4885FCE923F042C300C95638 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4885FCEB23F042C300C95638 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4885FCEC23F042C300C95638 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4885FCEE23F042C300C95638 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4885FCEF23F042C300C95638 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4885FCF223F042C300C95638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4885FCF423F042C500C95638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4885FCF723F042C500C95638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4885FCF923F042C500C95638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4885FCFA23F042C500C95638 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4885FD0823F045D800C95638 /* Info-IOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-IOS.plist"; sourceTree = "<group>"; };
+		4885FD1023F0471900C95638 /* MSTAspectsEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTAspectsEmitter.h; sourceTree = "<group>"; };
+		4885FD1123F0471900C95638 /* MSTLoggerEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTLoggerEmitter.m; sourceTree = "<group>"; };
+		4885FD1223F0471900C95638 /* MSTNetworkEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTNetworkEmitter.h; sourceTree = "<group>"; };
+		4885FD1323F0471900C95638 /* MSTRegistPlatformsEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTRegistPlatformsEmitter.m; sourceTree = "<group>"; };
+		4885FD1423F0471900C95638 /* MSTKeyboardEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTKeyboardEmitter.h; sourceTree = "<group>"; };
+		4885FD1523F0471900C95638 /* MSTAspectsEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTAspectsEmitter.m; sourceTree = "<group>"; };
+		4885FD1623F0471900C95638 /* MSTGlobalNotificationEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTGlobalNotificationEmitter.h; sourceTree = "<group>"; };
+		4885FD1723F0471900C95638 /* MSTLoggerEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTLoggerEmitter.h; sourceTree = "<group>"; };
+		4885FD1823F0471900C95638 /* MSTNetworkEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTNetworkEmitter.m; sourceTree = "<group>"; };
+		4885FD1923F0471900C95638 /* MSTRegistPlatformsEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTRegistPlatformsEmitter.h; sourceTree = "<group>"; };
+		4885FD1A23F0471900C95638 /* MSTKeyboardEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTKeyboardEmitter.m; sourceTree = "<group>"; };
+		4885FD1B23F0471900C95638 /* MSTGlobalNotificationEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTGlobalNotificationEmitter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4885FCCA23F040F300C95638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4885FCE323F042C300C95638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4885FD0A23F0464400C95638 /* MSTAppLord.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4885FCC323F040F300C95638 = {
+			isa = PBXGroup;
+			children = (
+				4885FCCF23F040F300C95638 /* Sources */,
+				4885FCE723F042C300C95638 /* MSTAppLord IOS Example */,
+				4885FCCE23F040F300C95638 /* Products */,
+				4885FCFF23F042E900C95638 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4885FCCE23F040F300C95638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4885FCCD23F040F300C95638 /* MSTAppLord.framework */,
+				4885FCE623F042C300C95638 /* MSTAppLord IOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4885FCCF23F040F300C95638 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4885FCD023F040F300C95638 /* MSTAppLord.h */,
+				4885FCD823F0411800C95638 /* MSTContext.h */,
+				4885FCDB23F0411800C95638 /* MSTContext.m */,
+				4885FCDC23F0411800C95638 /* MSTEmitterPlug.h */,
+				4885FCD923F0411800C95638 /* MSTPipe.h */,
+				4885FCDA23F0411800C95638 /* MSTPipe.m */,
+				4885FD0823F045D800C95638 /* Info-IOS.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4885FCE723F042C300C95638 /* MSTAppLord IOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				4885FD0F23F046AB00C95638 /* Plugin */,
+				4885FCE823F042C300C95638 /* AppDelegate.h */,
+				4885FCE923F042C300C95638 /* AppDelegate.m */,
+				4885FCEB23F042C300C95638 /* SceneDelegate.h */,
+				4885FCEC23F042C300C95638 /* SceneDelegate.m */,
+				4885FCEE23F042C300C95638 /* ViewController.h */,
+				4885FCEF23F042C300C95638 /* ViewController.m */,
+				4885FCF123F042C300C95638 /* Main.storyboard */,
+				4885FCF423F042C500C95638 /* Assets.xcassets */,
+				4885FCF623F042C500C95638 /* LaunchScreen.storyboard */,
+				4885FCF923F042C500C95638 /* Info.plist */,
+				4885FCFA23F042C500C95638 /* main.m */,
+			);
+			path = "MSTAppLord IOS Example";
+			sourceTree = "<group>";
+		};
+		4885FCFF23F042E900C95638 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4885FD0F23F046AB00C95638 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4885FD1023F0471900C95638 /* MSTAspectsEmitter.h */,
+				4885FD1523F0471900C95638 /* MSTAspectsEmitter.m */,
+				4885FD1623F0471900C95638 /* MSTGlobalNotificationEmitter.h */,
+				4885FD1B23F0471900C95638 /* MSTGlobalNotificationEmitter.m */,
+				4885FD1423F0471900C95638 /* MSTKeyboardEmitter.h */,
+				4885FD1A23F0471900C95638 /* MSTKeyboardEmitter.m */,
+				4885FD1723F0471900C95638 /* MSTLoggerEmitter.h */,
+				4885FD1123F0471900C95638 /* MSTLoggerEmitter.m */,
+				4885FD1223F0471900C95638 /* MSTNetworkEmitter.h */,
+				4885FD1823F0471900C95638 /* MSTNetworkEmitter.m */,
+				4885FD1923F0471900C95638 /* MSTRegistPlatformsEmitter.h */,
+				4885FD1323F0471900C95638 /* MSTRegistPlatformsEmitter.m */,
+			);
+			path = Plugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4885FCC823F040F300C95638 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4885FCE123F0411800C95638 /* MSTEmitterPlug.h in Headers */,
+				4885FCD223F040F300C95638 /* MSTAppLord.h in Headers */,
+				4885FCDD23F0411800C95638 /* MSTContext.h in Headers */,
+				4885FCDE23F0411800C95638 /* MSTPipe.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4885FCCC23F040F300C95638 /* MSTAppLord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4885FCD523F040F300C95638 /* Build configuration list for PBXNativeTarget "MSTAppLord" */;
+			buildPhases = (
+				4885FCC823F040F300C95638 /* Headers */,
+				4885FCC923F040F300C95638 /* Sources */,
+				4885FCCA23F040F300C95638 /* Frameworks */,
+				4885FCCB23F040F300C95638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSTAppLord;
+			productName = MSTAppLord;
+			productReference = 4885FCCD23F040F300C95638 /* MSTAppLord.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4885FCE523F042C300C95638 /* MSTAppLord IOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4885FCFC23F042C500C95638 /* Build configuration list for PBXNativeTarget "MSTAppLord IOS Example" */;
+			buildPhases = (
+				4885FCE223F042C300C95638 /* Sources */,
+				4885FCE323F042C300C95638 /* Frameworks */,
+				4885FCE423F042C300C95638 /* Resources */,
+				4885FD0E23F0464500C95638 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4885FD0D23F0464400C95638 /* PBXTargetDependency */,
+			);
+			name = "MSTAppLord IOS Example";
+			productName = "MSTAppLord IOS Example";
+			productReference = 4885FCE623F042C300C95638 /* MSTAppLord IOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4885FCC423F040F300C95638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = fanlilin;
+				TargetAttributes = {
+					4885FCCC23F040F300C95638 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					4885FCE523F042C300C95638 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4885FCC723F040F300C95638 /* Build configuration list for PBXProject "MSTAppLord" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4885FCC323F040F300C95638;
+			productRefGroup = 4885FCCE23F040F300C95638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4885FCCC23F040F300C95638 /* MSTAppLord */,
+				4885FCE523F042C300C95638 /* MSTAppLord IOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4885FCCB23F040F300C95638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4885FCE423F042C300C95638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4885FCF823F042C500C95638 /* LaunchScreen.storyboard in Resources */,
+				4885FCF523F042C500C95638 /* Assets.xcassets in Resources */,
+				4885FCF323F042C300C95638 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4885FCC923F040F300C95638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4885FCE023F0411800C95638 /* MSTContext.m in Sources */,
+				4885FCDF23F0411800C95638 /* MSTPipe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4885FCE223F042C300C95638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4885FCF023F042C300C95638 /* ViewController.m in Sources */,
+				4885FD1C23F0471A00C95638 /* MSTLoggerEmitter.m in Sources */,
+				4885FD1E23F0471A00C95638 /* MSTAspectsEmitter.m in Sources */,
+				4885FD2023F0471A00C95638 /* MSTKeyboardEmitter.m in Sources */,
+				4885FD1D23F0471A00C95638 /* MSTRegistPlatformsEmitter.m in Sources */,
+				4885FCEA23F042C300C95638 /* AppDelegate.m in Sources */,
+				4885FCFB23F042C500C95638 /* main.m in Sources */,
+				4885FD1F23F0471A00C95638 /* MSTNetworkEmitter.m in Sources */,
+				4885FCED23F042C300C95638 /* SceneDelegate.m in Sources */,
+				4885FD2123F0471A00C95638 /* MSTGlobalNotificationEmitter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4885FD0D23F0464400C95638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4885FCCC23F040F300C95638 /* MSTAppLord */;
+			targetProxy = 4885FD0C23F0464400C95638 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4885FCF123F042C300C95638 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4885FCF223F042C300C95638 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4885FCF623F042C500C95638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4885FCF723F042C500C95638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4885FCD323F040F300C95638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4885FCD423F040F300C95638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4885FCD623F040F300C95638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info-IOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.MSTAppLord;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4885FCD723F040F300C95638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info-IOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.MSTAppLord;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4885FCFD23F042C500C95638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJ4FWJLGUU;
+				INFOPLIST_FILE = "MSTAppLord IOS Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "work.MSTAppLord-IOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4885FCFE23F042C500C95638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJ4FWJLGUU;
+				INFOPLIST_FILE = "MSTAppLord IOS Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "work.MSTAppLord-IOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4885FCC723F040F300C95638 /* Build configuration list for PBXProject "MSTAppLord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4885FCD323F040F300C95638 /* Debug */,
+				4885FCD423F040F300C95638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4885FCD523F040F300C95638 /* Build configuration list for PBXNativeTarget "MSTAppLord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4885FCD623F040F300C95638 /* Debug */,
+				4885FCD723F040F300C95638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4885FCFC23F042C500C95638 /* Build configuration list for PBXNativeTarget "MSTAppLord IOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4885FCFD23F042C500C95638 /* Debug */,
+				4885FCFE23F042C500C95638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4885FCC423F040F300C95638 /* Project object */;
+}
